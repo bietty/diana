@@ -1,0 +1,34 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background: url(../images/photo_2023-06-21_06-42-28.jpg);
+    height: 100vh;
+    text-decoration-line: none;
+   text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0.5rem;
+}
+.back {
+   width: 100%;
+   height: 100vh;
+}
+.hap {
+    border: 2px solid lightgrey;
+    border-radius: 40rem;
+    background-color: rgb(149, 165, 178);
+    font-size: 4rem;
+    color: rgb(254, 251, 251);
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .hap {
+        font-size: 10rem;
+    }
+}
+
